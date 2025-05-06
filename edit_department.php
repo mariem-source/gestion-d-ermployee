@@ -77,8 +77,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <title>Edit Department - <?php echo APP_NAME; ?></title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"><body>
     <header>
         <h1><?php echo APP_NAME; ?></h1>
         <nav>
@@ -155,9 +154,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         </div>
     </main>
 
-    <footer>
-        <p>&copy; <?php echo date('Y'); ?> <?php echo APP_NAME; ?></p>
-    </footer>
+  
 
     <script src="../assets/js/script.js"></script>
 </body>
